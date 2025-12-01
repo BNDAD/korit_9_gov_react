@@ -11,6 +11,10 @@ import SearchName from "./ch02/SearchName";
 import UseEffect01 from "./ch03/UseEffect01";
 import UseEffect02 from "./ch03/UseEffect02";
 import UseEffect03 from "./ch03/UseEffect03";
+import UseEffect04 from "./ch03/UseEffect04";
+import Axios01 from "./ch04/Axios01";
+import Promise01 from "./ch04/Promise01";
+import Axios02 from "./ch04/Axios02";
 
 const appObj = {
   ch01: <App01 />,
@@ -24,7 +28,11 @@ const appObj = {
   useEffect1: <UseEffect01 />,
   useEffect2: <UseEffect02 />,
   useEffect3: <UseEffect03 />,
+  useEffect4: <UseEffect04 />,
+  axios1: <Axios01 />,
+  axios2: <Axios02 />,
+  promise1: <Promise01 />,
   counter: <Counter />,
 };
 
-createRoot(document.getElementById("root")).render(appObj.useEffect3);
+createRoot(document.getElementById("root")).render(appObj.axios2);
